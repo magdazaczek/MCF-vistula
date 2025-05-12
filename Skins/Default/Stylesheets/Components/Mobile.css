@@ -25,66 +25,108 @@
 
 	ul.menu._Skins_SideMenu.mc-component li > a
 	{
-		background-color: transparent;
+		background: transparent;
+		background: -moz-linear-gradient(top, #f5f5f5 0%, #b0c4de 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f5f5f5), color-stop(100%,#b0c4de));
+		background: -webkit-linear-gradient(top, #f5f5f5 0%, #b0c4de 100%);
+		background: -o-linear-gradient(top, #f5f5f5 0%,#b0c4de 100%);
+		background: -ms-linear-gradient(top, #f5f5f5 0%,#b0c4de 100%);
+		background: linear-gradient(#f5f5f5 0%,#b0c4de 100%);
+		-pie-background: linear-gradient(#f5f5f5, #b0c4de);
 	}
 
 	ul.menu._Skins_SideMenu.mc-component ul > li > a
 	{
-		background-color: transparent;
+		background: transparent;
+		background: -moz-linear-gradient(top, #f5f5f5 0%, #b0c4de 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f5f5f5), color-stop(100%,#b0c4de));
+		background: -webkit-linear-gradient(top, #f5f5f5 0%, #b0c4de 100%);
+		background: -o-linear-gradient(top, #f5f5f5 0%,#b0c4de 100%);
+		background: -ms-linear-gradient(top, #f5f5f5 0%,#b0c4de 100%);
+		background: linear-gradient(#f5f5f5 0%,#b0c4de 100%);
+		-pie-background: linear-gradient(#f5f5f5, #b0c4de);
 	}
 
 	ul.menu._Skins_SideMenu.mc-component ul ul > li > a
 	{
-		background-color: transparent;
+		background: transparent;
+		background: -moz-linear-gradient(top, #f5f5f5 0%, #b0c4de 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f5f5f5), color-stop(100%,#b0c4de));
+		background: -webkit-linear-gradient(top, #f5f5f5 0%, #b0c4de 100%);
+		background: -o-linear-gradient(top, #f5f5f5 0%,#b0c4de 100%);
+		background: -ms-linear-gradient(top, #f5f5f5 0%,#b0c4de 100%);
+		background: linear-gradient(#f5f5f5 0%,#b0c4de 100%);
+		-pie-background: linear-gradient(#f5f5f5, #b0c4de);
 	}
 
 	ul.menu._Skins_SideMenu.mc-component ul ul ul > li > a
 	{
-		background-color: transparent;
+		background: transparent;
+		background: -moz-linear-gradient(top, #f5f5f5 0%, #b0c4de 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f5f5f5), color-stop(100%,#b0c4de));
+		background: -webkit-linear-gradient(top, #f5f5f5 0%, #b0c4de 100%);
+		background: -o-linear-gradient(top, #f5f5f5 0%,#b0c4de 100%);
+		background: -ms-linear-gradient(top, #f5f5f5 0%,#b0c4de 100%);
+		background: linear-gradient(#f5f5f5 0%,#b0c4de 100%);
+		-pie-background: linear-gradient(#f5f5f5, #b0c4de);
 	}
 
 	ul.menu._Skins_SideMenu.mc-component ul ul ul ul > li > a
 	{
-		background-color: transparent;
+		background: transparent;
+		background: -moz-linear-gradient(top, #f5f5f5 0%, #b0c4de 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f5f5f5), color-stop(100%,#b0c4de));
+		background: -webkit-linear-gradient(top, #f5f5f5 0%, #b0c4de 100%);
+		background: -o-linear-gradient(top, #f5f5f5 0%,#b0c4de 100%);
+		background: -ms-linear-gradient(top, #f5f5f5 0%,#b0c4de 100%);
+		background: linear-gradient(#f5f5f5 0%,#b0c4de 100%);
+		-pie-background: linear-gradient(#f5f5f5, #b0c4de);
 	}
 
 	ul.menu._Skins_SideMenu.mc-component li > a.selected
 	{
-		background-color: transparent;
+		background: transparent;
+		background: -moz-linear-gradient(top, #f5f5f5 0%, #b0c4de 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f5f5f5), color-stop(100%,#b0c4de));
+		background: -webkit-linear-gradient(top, #f5f5f5 0%, #b0c4de 100%);
+		background: -o-linear-gradient(top, #f5f5f5 0%,#b0c4de 100%);
+		background: -ms-linear-gradient(top, #f5f5f5 0%,#b0c4de 100%);
+		background: linear-gradient(#f5f5f5 0%,#b0c4de 100%);
+		-pie-background: linear-gradient(#f5f5f5, #b0c4de);
 	}
 
 	ul.menu._Skins_SideMenu.mc-component li > a:hover
 	{
-		background-color: transparent;
+		background-color: #cacaca;
 	}
 
 	ul.menu._Skins_SideMenu.mc-component ul > li > a:hover
 	{
 		background-repeat: repeat;
-		background-color: transparent;
+		background-color: #cacaca;
 	}
 
 	ul.menu._Skins_SideMenu.mc-component ul ul > li > a:hover
 	{
 		background-repeat: repeat;
-		background-color: transparent;
+		background-color: #cacaca;
 	}
 
 	ul.menu._Skins_SideMenu.mc-component ul ul ul > li > a:hover
 	{
 		background-repeat: repeat;
-		background-color: transparent;
+		background-color: #cacaca;
 	}
 
 	ul.menu._Skins_SideMenu.mc-component ul ul ul ul > li > a:hover
 	{
 		background-repeat: repeat;
-		background-color: transparent;
+		background-color: #cacaca;
 	}
 
 	ul.menu._Skins_SideMenu.mc-component li > a.selected:hover
 	{
-		background-color: transparent;
+		background-color: #cacaca;
 	}
 
 	.buttons._Skins_TopicToolBar.mc-component
