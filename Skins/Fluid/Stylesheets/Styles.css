@@ -327,7 +327,7 @@ nav.title-bar .menu-icon
 	display: flex;
 	flex: 0 1 auto;
 	order: 1;
-	min-height: 55px;
+	min-height: 80px;
 	align-self: center;
 	justify-content: flex-start;
 }
@@ -339,11 +339,11 @@ nav.title-bar .menu-icon
 	margin: 0;
 	z-index: 1;
 	display: block;
-	width: 55px;
-	height: 55px;
+	width: 80px;
+	height: 80px;
 	align-self: center;
-	background: transparent url('Images/logomadcap.png') no-repeat center center;
-	-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/logomadcap.png') no-repeat center center;
+	background: transparent url('Images/Designer.jpeg') no-repeat center center;
+	-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/Designer.jpeg') no-repeat center center;
 }
 
 .title-bar-container
@@ -402,10 +402,10 @@ nav.title-bar .menu-icon
 	left: 0;
 	position: relative;
 	height: 3em;
-	border-left: none;
-	border-right: none;
-	border-top: none;
-	border-bottom: none;
+	border-left: solid 1px transparent;
+	border-right: solid 1px transparent;
+	border-top: solid 1px transparent;
+	border-bottom: solid 1px transparent;
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
 	border-bottom-right-radius: 5px;
@@ -437,8 +437,8 @@ nav.title-bar .menu-icon
 	padding-right: 5px;
 	cursor: pointer;
 	height: 3em;
-	border-top: none;
-	border-bottom: none;
+	border-top: solid 1px transparent;
+	border-bottom: solid 1px transparent;
 	border-left: solid 1px #000000;
 	border-right: solid 1px #000000;
 	width: 45px;
@@ -998,7 +998,7 @@ div.central-dropdown-content > a:hover
 
 .menu-icon-container
 {
-	min-height: 55px;
+	min-height: 80px;
 }
 
 .off-canvas-wrapper-inner .outer-row
@@ -1657,9 +1657,9 @@ div.central-dropdown-content > a:hover
 .search-bar .search-submit
 {
 	height: 3em;
-	border-right: none;
-	border-top: none;
-	border-bottom: none;
+	border-right: solid 1px transparent;
+	border-top: solid 1px transparent;
+	border-bottom: solid 1px transparent;
 	border-top-right-radius: 5px;
 	border-bottom-right-radius: 5px;
 }

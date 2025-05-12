@@ -22,6 +22,7 @@ body
 	color: #404040;
 	font-family: Arial, Avenir, Myriad;
 	line-height: 1.7em;
+	background: transparent cover;
 }
 
 h1
@@ -162,6 +163,7 @@ div.top-bar
 	padding-top: 1.5em;
 	margin-bottom: 2em;
 	margin-left: 2%;
+	display: block;
 }
 
 /*==Master Page Topic Layout==*/
@@ -189,17 +191,29 @@ div.top-bar
 
 div.home-content-container	/*Wraps the content on the masterpage and provides the white background on the home page.*/
 {
-	background-color: #FFF;
+	font-family: monospace;
+	font-style: normal;
+	font-variant: normal;
+	color: #696969;
+	font-size: 12pt;
+	background-color: transparent;
+	background-image: url('../Images/gradient-background.jpg');
+	border-bottom-width: 1px;
+	border: solid 1px #696969;
+	width: 80%;
 }
 
 div.topic-hero	/*Provides the accent for the background along with the logo.*/
 {
-	background-position-x: 105%;
-	background-position-y: 110%;
 	background-color: transparent;
-	background-image: url('../Images/purplebackground.jpg');
 	height: 72vh;
-	background-repeat: repeat;
+	display: block;
+	background-position-x: 100%;
+	background-position-y: 100%;
+	background-repeat: repeat-y;
+	color: #000000;
+	font-family: monospace;
+	font-size: 15pt;
 }
 
 div.side-content	/*Container for Menu proxy*/
@@ -215,6 +229,7 @@ div.home-layout	/*This layout was created using the Responsive Layout Editor in 
 	mc-grid-row: true;
 	margin-left: auto;
 	margin-right: auto;
+	background-color: transparent;
 }
 
 div.home-layout::before
@@ -248,7 +263,6 @@ div.home-layout > div:nth-child(1)
 div.topic-layout	/*This layout was created using the Responsive Layout Editor in MadCap Flare. Go to: Home Ribbon > Styles Section > Responsive Layout*/
 {
 	mc-grid-row: true;
-	margin-left: auto;
 	margin-right: auto;
 }
 
@@ -287,10 +301,14 @@ div.topic-layout > div:nth-child(2)	/*Menu Proxy container*/
 
 div.content-container	/*Wraps the content on the masterpage and provides the white background behind topics.*/
 {
-	margin-right: 0;
-	background-color: #FFF;
-	padding: 25px;
 	min-height: 70vh;
+	background-color: #c9dbc8;
+	color: #000000;
+	font-family: monospace;
+	font-size: 13pt;
+	background-size: auto;
+	padding: 25px;
+	padding-left: 25;
 }
 
 /*==Home Page Footer==*/
@@ -306,7 +324,14 @@ div.home-master-page-footer	/*This layout was created using the Responsive Layou
 	mc-grid-row: true;
 	margin-left: auto;
 	margin-right: auto;
-	width: 55%;
+	width: 100%;
+	height: 100px;
+	font-style: italic;
+	background-size: auto;
+	text-align: center;
+	color: #696969;
+	font-family: monospace;
+	background-color: transparent;
 }
 
 div.home-master-page-footer::before
@@ -334,6 +359,11 @@ div.home-master-page-footer > div:nth-child(1)
 	width: 100%;
 }
 
+MadCap|bodyProxy
+{
+	background-color: transparent;
+}
+
 @media only screen and (max-width: 1279px)
 {
 	div.home-layout > div:nth-child(1)
@@ -350,12 +380,43 @@ div.home-master-page-footer > div:nth-child(1)
 	div.topic-layout > div:nth-child(2)
 	{
 		width: 96%;
+		float: none;
 		margin-left: 2%;
 	}
 
 	div.topic-hero
 	{
 		background-image: none;
+	}
+
+	div.topic-layout > div
+	{
+		float: none;
+	}
+
+	div.topic-layout
+	{
+		margin-left: auto;
+	}
+
+	div.topic-layout::after
+	{
+		display: block;
+	}
+
+	div.topic-layout::before
+	{
+		display: block;
+	}
+
+	div.home-content-container
+	{
+		font-size: 13pt;
+	}
+
+	div.home-layout
+	{
+		font-size: 14pt;
 	}
 }
 

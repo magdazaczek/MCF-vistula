@@ -1030,7 +1030,8 @@ ul.menu._Skins_SideMenu.mc-component li > a.selected:hover
 
 .buttons._Skins_TopicToolBar.mc-component
 {
-	float: right;
+	display: block;
+	float: left;
 	margin-right: -4px;
 	margin-bottom: 33px;
 }
@@ -1250,7 +1251,7 @@ ul.menu._Skins_SideMenu.mc-component li > a.selected:hover
 {
 	background-repeat: no-repeat;
 	background-position: center center;
-	background: #ececec;
+	background: #8bc086;
 	background: -moz-linear-gradient(top, #ffffff 0%, #ececec 100%);
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#ececec));
 	background: -webkit-linear-gradient(top, #ffffff 0%, #ececec 100%);

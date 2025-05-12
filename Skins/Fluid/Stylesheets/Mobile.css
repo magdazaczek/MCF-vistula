@@ -11,10 +11,10 @@
 
 	.title-bar-layout a.logo
 	{
-		width: 55px;
-		height: 55px;
-		background: transparent url('Images/logomadcap.png') no-repeat center center;
-		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/logomadcap.png') no-repeat center center;
+		width: 80px;
+		height: 80px;
+		background: transparent url('Images/Designer.jpeg') no-repeat center center;
+		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/Designer.jpeg') no-repeat center center;
 	}
 
 	.search-bar .search-submit
@@ -415,12 +415,12 @@
 
 	.title-bar-layout .logo-wrapper
 	{
-		min-height: 55px;
+		min-height: 80px;
 	}
 
 	.menu-icon-container
 	{
-		min-height: 55px;
+		min-height: 80px;
 	}
 
 	.off-canvas-wrapper-inner .main-section > .outer-row
